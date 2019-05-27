@@ -3,7 +3,8 @@
   "description": "old tokyo style calendar",
   "main": "edo-calendar.js",
   "dependencies": {
-    "@polymer/polymer": "^3.0.0"
+    "@polymer/polymer": "^3.0.0",
+    "kalendae": "^0.7.1"
   },
   "devDependencies": {
     "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
