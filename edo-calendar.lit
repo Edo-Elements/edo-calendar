@@ -1,0 +1,27 @@
+<style lang="postcss">
+</style>
+
+<template>
+  <style>
+    :host {
+      display: block;
+    }
+  </style>
+  <h2>Hello ${this.prop1}!</h2>
+</template>
+
+<script>
+  export default class EdoCalendar {
+    static get properties() {
+      return {
+          prop1: String,
+      };
+    }
+    constructor() {
+        super();
+        this.prop1 = 'edo-calendar';
+    }
+  }
+
+  window.customElements.define('edo-calendar', EdoCalendar);
+</script>
