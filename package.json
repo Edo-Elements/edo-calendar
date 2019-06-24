@@ -1,0 +1,27 @@
+{
+  "name": "edo-calendar",
+  "version": "1.0.0",
+  "description": "old tokyo style calendar",
+  "main": "dist/edo-calendar.js",
+  "scripts": {
+    "build": "node build.js",
+    "bundle": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edo-Elements/edo-calendar.git"
+  },
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "calendar"
+  ],
+  "author": "Hori,Daisuke <hori.daisuke@polymorphics.jp> (https://github.com/horidaisuke)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Edo-Elements/edo-calendar/issues"
+  },
+  "homepage": "https://github.com/Edo-Elements/edo-calendar#readme"
+}
